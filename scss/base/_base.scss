@@ -17,22 +17,9 @@ button {
 
 a {
 	text-decoration: none;
-
-	&:hover {
-		color: $link-color;
-	}
 }
 
 .container {
 	width: 908px;
 	margin: 0 auto;
-}
-
-body,
-h2,
-h3,
-p,
-ul {
-	margin: 0;
-	padding: 0;
 }

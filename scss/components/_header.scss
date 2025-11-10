@@ -3,22 +3,21 @@
 @use '../base/base' as *;
 
 .header {
-	padding: 71px 183px 92px 168px;
+	padding-top: 71px;
 
 	&__list {
 		display: flex;
-		align-items: center;
-		gap: 99px;
-		margin: 0 auto;
-		list-style: none;
+		gap: 100px;
+		list-style-type: none;
 		text-transform: uppercase;
-		color: $paragraph-color;
 		justify-content: center;
 	}
 
 	&__link {
 		color: $paragraph-color;
-		line-height: 18.66px;
-		font-weight: 400;
+		font-weight: inherit;
+		&:hover {
+			color: $link-color;
+		}
 	}
 }
